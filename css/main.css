@@ -1,0 +1,44 @@
+.item{
+    position: relative;
+
+}
+.item-caption
+{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(165, 42, 42, 0.795);
+    background-color: rgba(255, 255, 255, 0.692) !important;
+}
+.lightbox-container{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.lightbox-item{
+    width: 60%;
+    height: 500px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+i
+{
+    color: rgba(252, 252, 252, 0.589) !important;
+}
+#close{
+    position: absolute;
+    top:10px;
+    right: 10px
+}
